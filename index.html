@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="pages/index.css" rel="stylesheet" type="text/css">
+</head>
+<body class="page">
+<header class="header">
+  <img class="logo" src="images/logo.svg">
+</header>
+<main class="content">
+  <section class="profile">
+    <div class="profile__container">
+      <img class="profile__image" src="images/cousto.jpg" alt="фото">
+      <div class="profile__info">
+        <h1 class="profile__title">Жак-Ив Кусто
+          <img class="profile__edit-button" src="images/pen.svg">
+        </h1>
+        <p class="profile__subtitle">Исследователь океана</p>
+      </div>
+    </div>
+    <a href="#popup" class="profile__popup-link">
+      <img class="profile__popup-link-plus" src="images/plus.svg">
+    </a>
+  </section>
+  <section class="elements">
+    <article class="card">
+      <img class="card__image" src="images/karachaevsk.jpg" alt="">
+      <div class="card__info">
+        <h2 class="card__title">Карачаевск</h2>
+        <a href="#" class="profile__like-link"><img class="profile__like-link_active"
+                                                    src="images/like.svg" alt="изображение лайка"></a>
+      </div>
+    </article>
+    <article class="card">
+      <img class="card__image" src="images/elbrus.jpg" alt="">
+      <div class="card__info">
+        <h2 class="card__title">Гора Эльбрус</h2>
+        <a href="#" class="profile__like-link"><img src="images/like.svg" alt="изображение лайка"></a>
+      </div>
+    </article>
+    <article class="card">
+      <img class="card__image" src="images/dombaj.jpg" alt="">
+      <div class="card__info">
+        <h2 class="card__title">Домбай</h2>
+        <a href="#" class="profile__like-link"><img src="images/like.svg" alt="изображение лайка"></a>
+      </div>
+    </article>
+    <article class="card">
+      <img class="card__image" src="images/elbrus.jpg" alt="">
+      <div class="card__info">
+        <h2 class="card__title">Гора Эльбрус</h2>
+        <a href="#" class="profile__like-link"><img src="images/like.svg" alt="изображение лайка"></a>
+      </div>
+    </article>
+    <article class="card">
+      <img class="card__image" src="images/dombaj.jpg" alt="">
+      <div class="card__info">
+        <h2 class="card__title">Домбай</h2>
+        <a href="#" class="profile__like-link"><img src="images/like.svg" alt="изображение лайка"></a>
+      </div>
+    </article>
+    <article class="card">
+      <img class="card__image" src="images/karachaevsk.jpg" alt="">
+      <div class="card__info">
+        <h2 class="card__title">Карачаево-Черкессия</h2>
+        <a href="#" class="profile__like-link"><img src="images/like.svg" alt="изображение лайка"></a>
+      </div>
+    </article>
+  </section>
+</main>
+<footer class="footer">
+  <img class="footer__copyright" src="images/mesto-Russia.svg" alt="знак копирайта">
+</footer>
+<div class="popup" id="popup">
+  <div class="popup__body">
+    <fieldset class="popup__content">
+      <a href="#" class="popup__link"><img class="popup__link-icon"
+                                           src="images/close_Icon.svg" alt="закрыть окно"></a>
+      <h2 class="popup__title">Редактировать профиль</h2>
+      <label for="name" class="popup__label"></label>
+      <input type="text" class="popup__name" name="name" id="name" placeholder="Жак-Ив Кусто">
+      <label for="activity" class="popup__label"></label>
+      <input type="text" class="popup__activity" name="popup__activity" id="activity"
+             placeholder="Исследователь океана">
+      <a href="#" class="popup__button">Сохранить</a>
+    </fieldset>
+  </div>
+</div>
+</body>
+</html>

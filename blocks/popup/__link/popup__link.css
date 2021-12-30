@@ -1,0 +1,17 @@
+.popup__link{
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  text-decoration: none;
+}
+
+.popup__link:hover{
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 580px){
+  .popup__link{
+    top: -33px;
+    right: -0px;
+  }
+}
