@@ -1,6 +1,6 @@
-.card__title{
+.card__title {
   margin: 0;
+  overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden;
 }

@@ -8,13 +8,13 @@
   margin-top: 0;
 }
 
-@media screen and (max-width: 680px){
-  .profile__subtitle{
+@media screen and (max-width: 680px) {
+  .profile__subtitle {
+    font-size: 14px;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
     line-height: 17px;
-    margin-left: 42px;
     margin-bottom: 30px;
+    margin-left: 42px;
   }
 }

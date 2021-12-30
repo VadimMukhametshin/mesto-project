@@ -1,6 +1,6 @@
-@media screen and (max-width: 680px){
-  .footer__copyright{
-    width: 141px;
+@media screen and (max-width: 680px) {
+  .footer__copyright {
     height: 14px;
+    width: 141px;
   }
 }

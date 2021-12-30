@@ -6,7 +6,6 @@
 * CSS
 * БЭМ
 
-
 **Github**
 
 * [Ссылка на проект](https://vadimmukhametshin.github.io/mesto-project/)
