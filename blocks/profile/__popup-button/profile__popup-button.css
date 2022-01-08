@@ -1,0 +1,24 @@
+.profile__popup-button {
+  background:url("../../../images/plus.svg") no-repeat 22px;
+  background-position-y: center;
+  background-position-x: center;
+  align-self: center;
+  border: white 1px solid;
+  border-radius: 2px;
+  display: flex;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+
+}
+
+.profile__popup-button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 680px) {
+  .profile__popup-button {
+    width: 282px;
+    background-size: 16px;
+  }
+}

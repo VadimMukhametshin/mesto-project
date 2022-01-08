@@ -1,10 +1,11 @@
 .header {
-  border-bottom: 1px solid rgba(255, 255, 255, 1);
-  padding-bottom: 40px;
+  border-bottom: 1px solid #C4C4C4;
+  padding-bottom: 36px;
   padding-top: 45px;
+
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 920px) {
   .header {
     padding-bottom: 30px;
     padding-left: 27px;

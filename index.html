@@ -1,93 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>Mesto Project</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link href="pages/index.css" rel="stylesheet" type="text/css">
 </head>
 <body class="page">
 <header class="header">
-  <img class="logo" src="images/logo.svg">
+  <img class="logo" src="images/logo.svg" alt="логотип">
 </header>
 <main class="content">
   <section class="profile">
     <div class="profile__container">
       <img alt="фото" class="profile__image" src="images/cousto.jpg">
       <div class="profile__info">
-        <h1 class="profile__title">Жак-Ив Кусто
-          <img class="profile__edit-button" src="images/pen.svg">
-        </h1>
+        <div class="profile__title-container">
+          <h1 class="profile__title">Жак-Ив Кусто</h1>
+          <button class="profile__edit-button"></button>
+        </div>
         <p class="profile__subtitle">Исследователь океана</p>
       </div>
     </div>
-    <a class="profile__popup-link" href="#popup">
-      <img class="profile__popup-link-plus" src="images/plus.svg">
-    </a>
+    <button class="profile__popup-button"></button>
   </section>
   <section class="elements">
     <article class="card">
-      <img alt="" class="card__image" src="images/karachaevsk.jpg">
+      <img alt="фото места" class="card__image" src="images/karachaevsk.jpg">
       <div class="card__info">
         <h2 class="card__title">Карачаевск</h2>
-        <a class="profile__like-link" href="#"><img alt="изображение лайка"
-                                                    class="profile__like-link_active" src="images/like.svg"></a>
+        <button class="profile__like-button"></button>
       </div>
     </article>
     <article class="card">
-      <img alt="" class="card__image" src="images/elbrus.jpg">
+      <img alt="фото места" class="card__image" src="images/elbrus.jpg">
       <div class="card__info">
         <h2 class="card__title">Гора Эльбрус</h2>
-        <a class="profile__like-link" href="#"><img alt="изображение лайка" src="images/like.svg"></a>
+        <button class="profile__like-button"></button>
       </div>
     </article>
     <article class="card">
-      <img alt="" class="card__image" src="images/dombaj.jpg">
+      <img alt="фото места" class="card__image" src="images/dombaj.jpg">
       <div class="card__info">
         <h2 class="card__title">Домбай</h2>
-        <a class="profile__like-link" href="#"><img alt="изображение лайка" src="images/like.svg"></a>
+        <button class="profile__like-button"></button>
       </div>
     </article>
     <article class="card">
-      <img alt="" class="card__image" src="images/elbrus.jpg">
+      <img alt="фото места" class="card__image" src="images/elbrus.jpg">
       <div class="card__info">
         <h2 class="card__title">Гора Эльбрус</h2>
-        <a class="profile__like-link" href="#"><img alt="изображение лайка" src="images/like.svg"></a>
+        <button class="profile__like-button"></button>
       </div>
     </article>
     <article class="card">
-      <img alt="" class="card__image" src="images/dombaj.jpg">
+      <img alt="фото места" class="card__image" src="images/dombaj.jpg">
       <div class="card__info">
         <h2 class="card__title">Домбай</h2>
-        <a class="profile__like-link" href="#"><img alt="изображение лайка" src="images/like.svg"></a>
+        <button class="profile__like-button"></button>
       </div>
     </article>
     <article class="card">
-      <img alt="" class="card__image" src="images/karachaevsk.jpg">
+      <img alt="фото места" class="card__image" src="images/karachaevsk.jpg">
       <div class="card__info">
         <h2 class="card__title">Карачаево-Черкессия</h2>
-        <a class="profile__like-link" href="#"><img alt="изображение лайка" src="images/like.svg"></a>
+        <button class="profile__like-button"></button>
       </div>
     </article>
   </section>
 </main>
 <footer class="footer">
-  <img alt="знак копирайта" class="footer__copyright" src="images/mesto-Russia.svg">
+  <p class="footer__copyright">&copy 2020 Mesto Russia</p>
 </footer>
-<div class="popup" id="popup">
-  <div class="popup__body">
-    <fieldset class="popup__content">
-      <a class="popup__link" href="#"><img alt="закрыть окно"
-                                           class="popup__link-icon" src="images/close_Icon.svg"></a>
+<div class="popup popup_opened" id="popup">
+    <div class="popup__container">
+      <button class="popup__link"></button>
       <h2 class="popup__title">Редактировать профиль</h2>
-      <label class="popup__label" for="name"></label>
-      <input class="popup__name" id="name" name="name" placeholder="Жак-Ив Кусто" type="text">
-      <label class="popup__label" for="activity"></label>
-      <input class="popup__activity" id="activity" name="popup__activity" placeholder="Исследователь океана"
+      <form class="popup__form">
+      <input class="popup__input" id="name" name="name" placeholder="Жак-Ив Кусто" type="text">
+      <input class="popup__input" id="activity" name="popup__activity" placeholder="Исследователь океана"
              type="text">
-      <a class="popup__button" href="#">Сохранить</a>
-    </fieldset>
+      <button class="popup__button">Сохранить</button>
+      </form>
+    </div>
   </div>
-</div>
 </body>
 </html>

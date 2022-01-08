@@ -9,5 +9,6 @@
 @media screen and (max-width: 680px) {
   .elements {
     padding-top: 36px;
+    gap: 20px;
   }
 }

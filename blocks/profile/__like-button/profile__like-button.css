@@ -1,0 +1,14 @@
+.profile__like-button {
+  border: none;
+  cursor: pointer;
+  background: #FFFFFF url("../../../images/like.svg");
+  background-size: cover;
+  aspect-ratio: 1/1;
+  width: 22px;
+  height: 19px;
+}
+
+.profile__like-button:hover {
+  opacity: 0.8;
+}
+

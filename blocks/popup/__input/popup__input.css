@@ -1,4 +1,4 @@
-.popup__name {
+.popup__input{
   border: 0;
   border-bottom: 1px solid #bcbcc4;
   box-sizing: border-box;
@@ -8,4 +8,15 @@
   margin-bottom: 26px;
   padding: 0;
   width: 100%;
+  line-height: 17px;
+}
+
+.popup__input:nth-child(2){
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 680px){
+  .popup__input{
+
+  }
 }
