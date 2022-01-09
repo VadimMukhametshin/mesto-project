@@ -1,6 +1,7 @@
 .popup__input{
+  background:  rgba(255, 255, 255, 1);
   border: 0;
-  border-bottom: 1px solid #bcbcc4;
+  border-bottom: 1px solid #bcbcc4 ;
   box-sizing: border-box;
   font-family: inherit;
   font-size: 14px;
@@ -13,10 +14,4 @@
 
 .popup__input:nth-child(2){
   margin-bottom: 0;
-}
-
-@media screen and (max-width: 680px){
-  .popup__input{
-
-  }
 }
