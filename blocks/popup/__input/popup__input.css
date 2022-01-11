@@ -12,6 +12,6 @@
   line-height: 17px;
 }
 
-.popup__input:nth-child(2){
+.popup__input:last-of-type{
   margin-bottom: 0;
 }
